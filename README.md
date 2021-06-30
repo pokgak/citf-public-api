@@ -15,6 +15,12 @@
 
 Refer `/docs` for OpenAPI specs.
 
+To start the server, run:
+
+```
+uvicorn main:app --reload
+```
+
 - GET /daily
     - query params
         - from: date
