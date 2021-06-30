@@ -13,14 +13,15 @@
 
 ## API
 
+Refer `/docs` for OpenAPI specs.
+
 - GET /daily
     - query params
         - from: date
         - until: date
-        - type: FIRST, SECOND, ALL
-        
+        - type: "first", "second", "total"
 - GET /cumulative
     - query params
         - from: date
         - until: date
-        - type: FIRST, SECOND, ALL
+        - type: "first", "second", "total"
